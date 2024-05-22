@@ -36,6 +36,7 @@ for (let i = 1; i <= 3; i++) {
 
 
 ////lab2
+///sum//
 const sum = function (num1, num2) {
 return num1+num2
 }
@@ -51,9 +52,5 @@ function dev(num1,num2) {
 }
 console.log(dev(10,2))
 ////divide/////
-function divide(num1,num2) {
-  return num1/num2
-}
-console.log(divide(20,2))
-
-
+let divide = (num1, num2) => num1 / num2;
+console.log(divide(20, 2))
