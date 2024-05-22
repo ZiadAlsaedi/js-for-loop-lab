@@ -54,3 +54,12 @@ console.log(dev(10,2))
 ////divide/////
 let divide = (num1, num2) => num1 / num2;
 console.log(divide(20, 2))
+
+////lab3///
+let num1=[5,10];
+let num2=[];
+for (let i = 0; i< num1.length; i++) {
+  num2.push(num1[i]*10)
+}
+
+console.log(num2)
