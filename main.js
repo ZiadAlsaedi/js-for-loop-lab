@@ -10,7 +10,7 @@ for (let index = 1; index <= 10; index++) {
 console.log(Math.pow(index ,2))
 }
 //3
-for (var index = 1; index <= 20; index++) {
+for (let index = 1; index <= 20; index++) {
     if (index % 2 != 0) {
       console.log(index)
     }
