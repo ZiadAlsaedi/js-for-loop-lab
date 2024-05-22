@@ -40,7 +40,7 @@ for (let i = 1; i <= 3; i++) {
 const sum = function (num1, num2) {
 return num1+num2
 }
-console.log(sum(5,3));
+console.log(sum(7,3));
 ///mult///
 function mult(num1,num2) {
   return num1*num2
