@@ -1,3 +1,5 @@
+//lab1
+
 //1
 let num =0;
 for (let index = 0; index <= 11; index++) {
@@ -31,4 +33,27 @@ for (let i = 1; i <= 3; i++) {
   }
   console.log(); 
 }
+
+
+////lab2
+const sum = function (num1, num2) {
+return num1+num2
+}
+console.log(sum(5,3));
+///mult///
+function mult(num1,num2) {
+  return num1*num2
+}
+console.log(mult(5,3))
+////dev////
+function dev(num1,num2) {
+  return num1-num2
+}
+console.log(dev(10,2))
+////divide/////
+function divide(num1,num2) {
+  return num1/num2
+}
+console.log(divide(20,2))
+
 
